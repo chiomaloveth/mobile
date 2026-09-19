@@ -1,0 +1,301 @@
+name: qik_talk
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+# Version and build number
+
+
+version: 1.0.0+8
+
+
+
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI Components & Styling
+  hexcolor: ^3.0.1
+  smooth_page_indicator: ^1.0.0
+  shimmer: ^3.0.0
+
+  google_fonts: ^6.2.1
+  dropdown_button2: ^2.3.9
+  photo_view: ^0.14.0
+  marquee: ^2.3.0
+  cupertino_icons: ^1.0.8
+  
+  # Forms & Input
+  flutter_otp_text_field: ^1.1.0+2
+  
+  # Media & Files
+  image_picker: ^1.0.7
+  image_cropper: ^9.1.0
+  file_picker: ^8.0.0
+  flutter_contacts: ^1.1.9+2
+  video_player: ^2.10.1
+  better_player_plus: ^1.1.5
+  
+  # Audio
+  just_audio: ^0.9.38
+  audio_waveforms: ^1.0.4
+  
+  # Storage & Persistence
+  shared_preferences: ^2.2.2
+  hive_ce: ^2.2.3
+  hive_ce_flutter: ^1.1.0
+  path_provider: ^2.1.4
+  path: ^1.8.3
+  flutter_callkit_incoming: ^2.0.5
+  
+  # Networking & API
+  http: ^1.1.0
+  http_parser: ^4.1.2
+  dio: ^5.4.0
+  socket_io_client: ^3.0.2
+  retrofit: 4.8.0
+  
+  # State Management
+  provider: ^6.0.5
+  flutter_riverpod: ^2.5.1
+  flutter_svg: ^2.0.10+1
+  
+  # Utilities
+  intl: ^0.20.2
+  permission_handler: ^11.0.1
+  upgrader: ^12.3.0
+  url_launcher: ^6.3.0
+  share_plus: ^7.2.2
+  open_filex: ^4.7.0
+  country_picker: ^2.0.26
+  geolocator: ^11.0.0
+  phone_numbers_parser: ^9.0.17
+  local_auth: ^2.2.0
+  
+  # PDF
+  pdf: ^3.11.0
+  printing: ^5.12.0
+  
+  # UI Patterns
+  flutter_card_swiper: ^7.0.0
+  
+  # WebRTC
+  flutter_webrtc: ^0.14.2
+  
+  # Architecture
+  freezed_annotation: 2.4.4
+  json_annotation: 4.9.0
+  dartz: ^0.10.1
+  equatable: ^2.0.8
+  app_links: ^6.4.1
+  
+  # Firebase
+  firebase_core: ^4.4.0
+  firebase_messaging: ^16.1.1
+  flutter_local_notifications: ^20.0.0
+  crypto: ^3.0.7
+  cached_network_image: ^3.4.1
+  chewie: ^1.13.0
+  video_trimmer: ^5.0.0
+  ffmpeg_kit_flutter_new_min_gpl: ^2.1.1
+  shorebird_code_push: ^2.0.5
+  wakelock_plus: ^1.4.0
+  proximity_sensor: ^1.0.2
+  audioplayers: ^6.5.1
+  vibration: ^3.1.7
+  image: ^4.5.4
+  emoji_picker_flutter: ^4.4.0
+  iconly: ^1.0.1
+
+  camera: ^0.12.0
+  audio_session: ^0.1.25
+  flutter_image_compress: ^2.4.0
+  flutter_volume_controller: ^1.3.4
+  flutter_system_ringtones: ^0.0.6
+  flutter_ringtone_player: ^4.0.0+4
+  gal: ^2.3.2
+  screenshot: ^3.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Code Generation
+  build_runner: 2.4.13
+  hive_ce_generator: ^1.4.0
+  json_serializable: 6.8.0
+  freezed: 2.5.2
+  retrofit_generator: 8.2.1
+  
+  # Linting
+  flutter_lints: ^5.0.0
+  
+  # App Icons
+  flutter_launcher_icons: ^0.14.1
+
+dependency_overrides:
+  frontend_server_client: 4.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/quik_talk_app-icon.png"
+  # Full-bleed adaptive icon configuration
+  adaptive_icon_background: "#00000000" # Fully transparent
+  adaptive_icon_foreground: "images/quik_talk_app-icon.png"
+  min_sdk_android: 24
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - images/icons/
+    - images/
+    - images/wp_crimson.png
+    - images/wp_teal.png
+    - images/wp_violet.png
+    - images/wp_nebula.png
+    - images/wp_aurora.png
+    - images/wp_cosmos.png
+    - images/wp_planet.png
+    - images/wp_silk.png
+    - images/wp_waves.png
+    - assets/svgs/
+    - images/splash_screen_logo.png
+    - images/slider_one.png
+    - images/slider_two.png
+    - images/slider_three.png
+    - images/slider_four.png
+    - images/sign_up_logo.png
+    - images/edit_image.png
+    - images/chat_active.png
+    - images/feeds_active.png
+    - images/status.png
+    - images/call.png
+    - images/wallet_active.png
+    - images/wallet.png
+    - images/call_active.png
+    - images/menu.png
+    - images/chat.png
+    - images/status_active.png
+    - images/feeds.png
+    - images/man_image.png
+    - images/camera_add.png
+    - images/man2.png
+    - images/waves.png
+    - images/wsp_logo.png
+    - images/code_dot.png
+    - images/missed_call_icon.png
+    - images/sms_icon.png
+    - images/voice_call_icon.png
+    - images/contact.png
+    - images/group.png
+    - images/broadcast.png
+    - images/community.png
+    - images/add_status.png
+    - images/man3.png
+    - images/view_status.png
+    - images/app_bar_gredient.png
+    - images/globe.png
+    - images/follow_batch.png
+    - images/post_images.png
+    - images/love.png
+    - images/likes.png
+    - images/comments.png
+    - images/forward.png
+    - images/write_feeds.png
+    - images/credit_card.png
+    - images/receive.png
+    - images/run_adds.png
+    - images/send.png
+    - images/top_up.png
+    - images/gal.png
+    - images/account_icon.png
+    - images/notification_icon.png
+    - images/theme_icon.png
+    - images/backup_icon.png
+    - images/premium_icon.png
+    - images/data-icon.png
+    - images/help_icon.png
+    - images/ai_icon.png
+    - images/wallet_icon.png
+    - images/pdf_upload.png
+    - images/security_icon.png
+    - images/privacy_icon.png
+    - images/password_icon.png
+    - images/delete_icon.png
+    - images/send_chat.png
+    - images/record_chat.png
+    - images/button_add.png
+    - images/cam.png
+    - images/robot.png
+    - images/quik_talk_app-icon.png
+    - images/blur_rectangle.png
+    - images/study_community.png
+    - images/wellness_community.png
+    - images/street_clean.png
+    - images/healthy_body.png
+    - images/lady_image.png
+    - images/guy_image.png
+    - images/guy1.png
+    - images/guy2.png
+    - images/lady1.png
+    - images/guy3.png
+    - images/lady2.png
+    - images/group1.png
+    - images/group2.png
+    - images/group3.png
+    - images/group4.png
+    - images/group5.png
+    - images/group6.png
+    - images/group7.png
+    - images/group8.png
+    - images/delete_button.png
+    - images/document.png
+    - images/gallery.png
+    - images/media1.png
+    - images/media2.png
+    - images/media3.png
+    - images/media4.png
+    - images/media5.png
+    - images/media6.png
+    - images/profilepics.png
+    - images/profile_logo.png
+    - images/create_community.png
+    - images/create_contact.png
+    - images/create_group.png
+    - images/create_chat.png
+    - images/create_broadcast.png
+    - images/cancel_icon.png
+    - images/robot_image.png
+    - images/typing.png
+    - shorebird.yaml
+    - images/sounds_ringtone.mp3
+    - images/incoming_message.mp3
+    - images/outgoing_message.mp3
+    - images/transfer.png
+    - images/airplane1.png
+    - images/airplane2.png
+    - images/airplane3.png
+    - images/airplane4.png
+    - images/airplane5.png
+    - images/car.png
+    - images/plane.png
+    - images/ship.png
+    - images/community_image.png
+    - images/community_cameraedit.png
+    - images/community_editicon.png
+    - images/groupinfo_icon.png
+    - images/send_plane.png
+    - images/send_car.png
+    - images/send_ship.png
+    - images/finance_group.png
+    - images/family_group.png
+    - images/message_group.png
