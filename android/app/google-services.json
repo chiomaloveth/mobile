@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "167923842336",
+    "project_id": "portfolio-79b32",
+    "storage_bucket": "portfolio-79b32.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167923842336:android:440389b0d0f94c12de6b45",
+        "android_client_info": {
+          "package_name": "com.company.qik_talk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyEXAMPLE_KEY_FOR_DEMO_SUBMISSION_12"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
