@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield with keyhole icon for Privacy First -->
+  <g transform="translate(106, 80)">
+    <!-- Shield outline -->
+    <path d="M 150 10 Q 50 10 50 10 L 50 180 Q 50 280 150 350 Q 250 280 250 180 L 250 10 Q 250 10 150 10 Z" 
+          stroke="currentColor" 
+          stroke-width="24" 
+          fill="none"
+          stroke-linejoin="round"/>
+    
+    <!-- Keyhole -->
+    <!-- Circle part -->
+    <circle cx="150" cy="140" r="28" fill="currentColor"/>
+    
+    <!-- Keyhole slot -->
+    <path d="M 135 165 L 135 220 Q 135 230 150 230 Q 165 230 165 220 L 165 165 Z" fill="currentColor"/>
+  </g>
+</svg>

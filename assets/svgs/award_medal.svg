@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Award medal with star and ribbon -->
+  <g transform="translate(106, 56)">
+    <!-- Ribbon left -->
+    <path d="M 100 0 L 120 0 L 150 200 L 100 180 Z" fill="currentColor"/>
+    
+    <!-- Ribbon right -->
+    <path d="M 180 0 L 200 0 L 200 180 L 150 200 Z" fill="currentColor"/>
+    
+    <!-- Medal circle -->
+    <circle cx="150" cy="240" r="100" 
+            stroke="currentColor" 
+            stroke-width="16" 
+            fill="none"/>
+    
+    <!-- Star inside -->
+    <path d="M 150 180 L 165 220 L 210 225 L 175 255 L 185 300 L 150 275 L 115 300 L 125 255 L 90 225 L 135 220 Z" 
+          fill="currentColor"/>
+  </g>
+</svg>

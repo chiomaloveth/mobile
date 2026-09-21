@@ -1,0 +1,39 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bug/Beetle Icon - Based on provided design -->
+  <g transform="translate(106, 106)">
+    <!-- Main body (oval/shield shape) -->
+    <ellipse cx="150" cy="180" rx="110" ry="140" fill="currentColor"/>
+    
+    <!-- Head (top arc) -->
+    <path d="M 150 40 Q 100 40 80 20 Q 80 10 90 10 Q 110 30 150 30 Q 190 30 210 10 Q 220 10 220 20 Q 200 40 150 40 Z" fill="currentColor"/>
+    
+    <!-- Antennae (left) -->
+    <circle cx="90" cy="15" r="18" fill="currentColor"/>
+    
+    <!-- Antennae (right) -->
+    <circle cx="210" cy="15" r="18" fill="currentColor"/>
+    
+    <!-- Legs - Left side -->
+    <!-- Top left leg -->
+    <rect x="30" y="120" width="50" height="28" rx="14" fill="currentColor"/>
+    
+    <!-- Middle left leg -->
+    <rect x="20" y="180" width="50" height="28" rx="14" fill="currentColor"/>
+    
+    <!-- Bottom left leg -->
+    <rect x="30" y="240" width="50" height="28" rx="14" fill="currentColor"/>
+    
+    <!-- Legs - Right side -->
+    <!-- Top right leg -->
+    <rect x="220" y="120" width="50" height="28" rx="14" fill="currentColor"/>
+    
+    <!-- Middle right leg -->
+    <rect x="230" y="180" width="50" height="28" rx="14" fill="currentColor"/>
+    
+    <!-- Bottom right leg -->
+    <rect x="220" y="240" width="50" height="28" rx="14" fill="currentColor"/>
+    
+    <!-- Center dividing line -->
+    <rect x="147" y="50" width="6" height="260" fill="currentColor" opacity="0.3"/>
+  </g>
+</svg>

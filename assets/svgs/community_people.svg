@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Three people icon for Community Focused -->
+  <g transform="translate(56, 106)">
+    <!-- Center person (larger) -->
+    <!-- Head -->
+    <circle cx="200" cy="60" r="45" fill="currentColor"/>
+    <!-- Body -->
+    <path d="M 200 115 Q 150 115 130 180 L 130 240 Q 130 250 140 250 L 260 250 Q 270 250 270 240 L 270 180 Q 250 115 200 115 Z" 
+          fill="currentColor"/>
+    
+    <!-- Left person (smaller) -->
+    <!-- Head -->
+    <circle cx="80" cy="90" r="38" fill="currentColor"/>
+    <!-- Body -->
+    <path d="M 80 135 Q 40 135 25 190 L 25 240 Q 25 250 35 250 L 125 250 Q 135 250 135 240 L 135 190 Q 120 135 80 135 Z" 
+          fill="currentColor"/>
+    
+    <!-- Right person (smaller) -->
+    <!-- Head -->
+    <circle cx="320" cy="90" r="38" fill="currentColor"/>
+    <!-- Body -->
+    <path d="M 320 135 Q 280 135 265 190 L 265 240 Q 265 250 275 250 L 365 250 Q 375 250 375 240 L 375 190 Q 360 135 320 135 Z" 
+          fill="currentColor"/>
+  </g>
+</svg>
