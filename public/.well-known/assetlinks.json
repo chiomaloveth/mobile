@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.company.qik_talk",
+    "sha256_cert_fingerprints": [
+      "39:BC:37:FF:49:D9:A4:ED:61:4C:4A:76:23:E0:01:D4:D1:89:5C:FF:12:96:87:7C:0F:DB:9A:DE:D2:DC:6D:B6"
+    ]
+  }
+}]

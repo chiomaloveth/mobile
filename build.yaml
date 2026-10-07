@@ -1,0 +1,40 @@
+# build.yaml
+targets:
+  $default:
+    builders:
+      # For Freezed (your data models)
+      freezed|freezed:
+        generate_for:
+          - lib/**/*.dart
+        options:
+          # Generate copyWith for all classes
+          copy_with: true
+          # Generate == operator  
+          equal: true
+          # Generate toString method
+          to_string: true
+          
+      # For JSON serialization
+      json_serializable|json_serializable:
+        generate_for:
+          - lib/**/*.dart
+        options:
+          # Handle null values properly
+          explicit_to_json: true
+          include_if_null: false
+          
+      # For Injectable (dependency injection)
+      injectable_generator|injectable_generator:
+        generate_for:
+          - lib/injectable.dart
+        options:
+          # Generate async registration
+          auto_register: true
+          
+      # For Retrofit (API clients)
+      retrofit_generator|retrofit_generator:
+        generate_for:
+          - lib/**/apis/*.dart
+        options:
+          # Generate null-safe code
+          null_safe: true

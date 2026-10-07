@@ -1,0 +1,30 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "qiktalk-mobile",
+          "appId": "1:263551187111:android:6f0a21352c4fac1afb8382",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "qiktalk-mobile",
+          "configurations": {
+            "android": "1:263551187111:android:6f0a21352c4fac1afb8382",
+            "ios": "1:263551187111:ios:b0f5cab870f011e8fb8382"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

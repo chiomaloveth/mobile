@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "RMGU6JQGT2.com.company.qikTalk",
+        "paths": ["/post/*", "/join/*"]
+      }
+    ]
+  }
+}
